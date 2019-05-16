@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'v39lfy' => 'admin@onlywish.me' }
-  s.source           = { :http => 'https://github.com/v39lfy/mimc-iOS/commits/master/mimc/2_1_0.framework.zip', :sha1 => '521b7f5d036cae54a0f36f63280df207172b5f22' }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :http => 'https://github.com/v39lfy/mimc-iOS/commits/master/mimc/2_1_0.framework.zip', :sha1 => '615fc170479c594df2ed32e94008c365f9386faa' }
+  s.vendored_frameworks = 'mimc/MMCSDK.framework'
 
   s.ios.deployment_target = '8.0'
 
