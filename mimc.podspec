@@ -25,19 +25,19 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'v39lfy' => 'admin@onlywish.me' }
-  s.source           = { :git => 'https://github.com/v39lfy/mimc-iOS.git', :tag => s.version.to_s }
+  #s.source           = { :git => 'https://github.com/v39lfy/mimc-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files =  'Classes/*.{h,m}'
+  s.source_files =  'mimc/Classes/*.{h,m}'
   
   s.vendored_frameworks = 'mimc/MMCSDK.framework'
   # s.resource_bundles = {
   #   'mimc' => ['mimc/Assets/*.png']
   # }
 
-  s.public_header_files = 'Classes/*.h'
+  s.public_header_files = 'mimc/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
