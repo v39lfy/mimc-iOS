@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #   'mimc' => ['mimc/Assets/*.png']
   # }
 
-  s.public_header_files = 'mimc/Classes/*.h'
+  s.public_header_files = 'mimc/MMCSDK.framework/Headers/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
