@@ -7,7 +7,7 @@
 //
 
 #import "MIMCViewController.h"
-
+#import <mimc/>
 @interface MIMCViewController ()
 
 @end

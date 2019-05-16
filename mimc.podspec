@@ -30,14 +30,14 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'mimc/MMCSDK.framework/Headers/*.h'
+  #s.source_files = ''#'mimc/MMCSDK.framework/Headers/*.h'
   
   s.vendored_frameworks = 'mimc/MMCSDK.framework'
   # s.resource_bundles = {
   #   'mimc' => ['mimc/Assets/*.png']
   # }
 
-  s.public_header_files = 'mimc/MMCSDK.framework/Headers/*.h'#'Pod/Classes/**/*.h'
+  #s.public_header_files = ''#'mimc/MMCSDK.framework/Headers/*.h'#'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
