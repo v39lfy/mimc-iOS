@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'mimc/Classes/**/*'
+  s.source_files = 'mimc/MMCSDK.framework/Headers/*.h'
   
   s.vendored_frameworks = 'mimc/MMCSDK.framework'
   # s.resource_bundles = {
